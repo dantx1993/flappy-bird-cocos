@@ -159,7 +159,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 1821.981981981982,
+    "_orthoHeight": 2130.229709035222,
     "_near": 0,
     "_far": 2000,
     "_color": {
@@ -448,7 +448,7 @@
     "_group": 2,
     "_density": 1,
     "_sensor": false,
-    "_friction": 0.2,
+    "_friction": 0,
     "_restitution": 0,
     "_offset": {
       "__type__": "cc.Vec2",
@@ -474,6 +474,7 @@
     "rb2D": {
       "__id__": 11
     },
+    "upForce": 400,
     "_id": "65zpGs2EdAt7AX2rxHa7R1"
   },
   {
