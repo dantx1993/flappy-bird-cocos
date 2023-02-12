@@ -8,10 +8,6 @@ export class BirdController extends Component {
     @property({ type: CCFloat })
     upForce: number = 200;
 
-    start() {
-        this.rb2D.gravityScale = 3;
-    }
-
     onLoad() {
         input.on(Input.EventType.MOUSE_DOWN, this.addForce, this);
     }

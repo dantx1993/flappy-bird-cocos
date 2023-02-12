@@ -7,13 +7,13 @@ export const pipeSpawnXPos: number = 1000;
 export class GameConfig extends Component
 {
     @property({ type: CCFloat })
-    scrollingSpeed = -100;
+    scrollingSpeed = -1;
     @property({ type: CCFloat })
     pipeSpawnRate = 3;
     @property({ type: CCFloat })
-    pipeMinY = -425;
+    pipeMinY = -20;
     @property({ type: CCFloat })
-    pipeMaxY = 220;
+    pipeMaxY = 150;
 
     public static Instance: GameConfig;
 
